@@ -47,7 +47,7 @@ public class RenderBlockPreview {
             // Use cached previews of the same target pos/dir
             // Exception: always update if blockCount < 2 to prevent 1-block previews when block updates
             // from the last placement are lagging
-            if(lastRayTraceResult == null || !compareRTR(lastRayTraceResult, rtr) || lastWand.equals(wand)
+            if(lastRayTraceResult == null || !compareRTR(lastRayTraceResult, rtr) || !lastWand.equals(wand)
                 || previewBlocks == null || previewBlocks.size() < 2) {
                 lastRayTraceResult = rtr;
                 lastWand = wand;
