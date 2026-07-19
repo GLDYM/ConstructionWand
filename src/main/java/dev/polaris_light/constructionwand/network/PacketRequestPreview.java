@@ -3,7 +3,6 @@ package dev.polaris_light.constructionwand.network;
 import dev.polaris_light.constructionwand.ConstructionWand;
 import dev.polaris_light.constructionwand.items.wand.ItemWand;
 import dev.polaris_light.constructionwand.wand.WandJob;
-import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.codec.StreamCodec;

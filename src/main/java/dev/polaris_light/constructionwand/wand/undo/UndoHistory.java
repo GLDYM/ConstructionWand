@@ -9,7 +9,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import dev.polaris_light.constructionwand.network.ModMessages;
-import dev.polaris_light.constructionwand.ConstructionWand;
 import dev.polaris_light.constructionwand.basics.ConfigServer;
 import dev.polaris_light.constructionwand.network.PacketUndoBlocks;
 

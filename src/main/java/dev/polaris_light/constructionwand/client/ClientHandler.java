@@ -1,6 +1,5 @@
 package dev.polaris_light.constructionwand.client;
 
-import dev.polaris_light.constructionwand.ConstructionWand;
 import dev.polaris_light.constructionwand.items.ModItems;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;

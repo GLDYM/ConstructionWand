@@ -73,8 +73,6 @@ public class KeybindHandler {
     // (Sneak)+OPT+Left click wand to change core
     @SubscribeEvent
     public void onLeftClickEmpty(PlayerInteractEvent.LeftClickEmpty event) {
-        Player player = event.getEntity();
-
         if(!modeKeyCombDown()) return;
 
         ItemStack wand = event.getItemStack();

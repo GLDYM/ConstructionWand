@@ -7,7 +7,6 @@ import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
-import dev.polaris_light.constructionwand.ConstructionWand;
 import dev.polaris_light.constructionwand.basics.option.IOption;
 import dev.polaris_light.constructionwand.basics.option.WandOptions;
 import dev.polaris_light.constructionwand.network.ModMessages;

@@ -5,7 +5,6 @@ import net.minecraft.server.level.ServerPlayer;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.HashSet;
-import java.util.Stack;
 
 public class ContainerTrace {
 

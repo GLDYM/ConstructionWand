@@ -1,7 +1,6 @@
 package dev.polaris_light.constructionwand.containers.handlers;
 
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import dev.polaris_light.constructionwand.api.IContainerHandler;
 import dev.polaris_light.constructionwand.containers.ContainerTrace;
@@ -9,7 +8,6 @@ import dev.polaris_light.constructionwand.items.wand.ItemWand;
 
 import com.wintercogs.beyonddimensions.api.dimensionnet.DimensionsNet;
 import com.wintercogs.beyonddimensions.api.dimensionnet.UnifiedStorage;
-import com.wintercogs.beyonddimensions.api.storage.key.IStackKey;
 import com.wintercogs.beyonddimensions.api.storage.key.impl.ItemStackKey;
 
 public class HandlerDimensionsNet implements IContainerHandler {

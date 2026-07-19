@@ -1,6 +1,5 @@
 package dev.polaris_light.constructionwand.integrations.jei;
 
-import com.mojang.blaze3d.platform.InputConstants;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.constants.VanillaTypes;

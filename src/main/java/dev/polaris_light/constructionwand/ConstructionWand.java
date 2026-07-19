@@ -41,7 +41,7 @@ public class ConstructionWand {
         ModRecipes.RECIPE_SERIALIZERS.register(eventBus);
         ModStats.CUSTOM_STATS.register(eventBus);
 
-        container.registerConfig(ModConfig.Type.SERVER, ConfigServer.SPEC);
+        container.registerConfig(ModConfig.Type.STARTUP, ConfigServer.SPEC);
         container.registerConfig(ModConfig.Type.CLIENT, ConfigClient.SPEC);
 
         if (dist.isClient()) {

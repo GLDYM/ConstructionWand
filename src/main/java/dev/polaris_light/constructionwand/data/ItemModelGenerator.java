@@ -1,7 +1,6 @@
 package dev.polaris_light.constructionwand.data;
 
 import net.minecraft.data.PackOutput;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;

@@ -1,6 +1,5 @@
 package dev.polaris_light.constructionwand.containers.handlers;
 
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import dev.polaris_light.constructionwand.api.IContainerHandler;
@@ -8,7 +7,6 @@ import dev.polaris_light.constructionwand.containers.ContainerTrace;
 
 import com.wintercogs.beyonddimensions.api.dimensionnet.DimensionsNet;
 import com.wintercogs.beyonddimensions.api.dimensionnet.UnifiedStorage;
-import com.wintercogs.beyonddimensions.api.storage.key.IStackKey;
 import com.wintercogs.beyonddimensions.api.storage.key.impl.ItemStackKey;
 import com.wintercogs.beyonddimensions.common.item.NetedItem;
 import com.wintercogs.beyonddimensions.common.init.BDDataComponents;
@@ -23,7 +21,7 @@ public class HandlerNetTerminal implements IContainerHandler {
 
     @Override
     public int getSignature(Player player, ItemStack inventoryStack) {
-        if (!(inventoryStack.getItem() instanceof NetTerminalItem terminal)) return -1;
+        if (!(inventoryStack.getItem() instanceof NetTerminalItem)) return -1;
         int netId = (Integer)inventoryStack.getOrDefault(BDDataComponents.NET_ID_DATA, -1);
         return (netId != -1) ? 10000 + netId : -1;
     }
