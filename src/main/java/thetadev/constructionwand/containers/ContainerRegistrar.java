@@ -10,6 +10,7 @@ import thetadev.constructionwand.containers.handlers.HandlerDimensionsNet;
 import thetadev.constructionwand.containers.handlers.HandlerLightland;
 import thetadev.constructionwand.containers.handlers.HandlerNetTerminal;
 import thetadev.constructionwand.containers.handlers.HandlerPortableCell;
+import thetadev.constructionwand.containers.handlers.HandlerProjectE;
 import thetadev.constructionwand.containers.handlers.HandlerShulkerbox;
 import thetadev.constructionwand.containers.handlers.HandlerWirelessCraftingGrid;
 import thetadev.constructionwand.containers.handlers.HandlerWirelessGrid;
@@ -62,6 +63,11 @@ public class ContainerRegistrar
             ConstructionWand.instance.containerManager.register(new HandlerDimensionsNet());
             ConstructionWand.instance.containerManager.register(new HandlerNetTerminal());
             ConstructionWand.LOGGER.info("Beyond Dimensions integration added");
+        }
+
+        if(ModList.get().isLoaded("projecte")) {
+            ConstructionWand.instance.containerManager.register(new HandlerProjectE());
+            ConstructionWand.LOGGER.info("ProjectE integration added");
         }
     }
 }

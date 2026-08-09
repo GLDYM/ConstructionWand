@@ -7,7 +7,7 @@ version="${file.jarVersion}"
 displayName="Construction Wand KOTS"
 displayURL="https://github.com/GLDYM/ConstructionWand-KOTS"
 logoFile="icon.png"
-authors="ThetaDev, Polaris_Light"
+authors="ThetaDev, Polaris_Light, adoleiiiiii"
 description='''
 Construction Wands KOTS, added more compatibility and QoL Change.
 '''

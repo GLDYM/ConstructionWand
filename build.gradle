@@ -141,6 +141,7 @@ dependencies {
     compileOnly fg.deobf("curse.maven:refined-storage-243076:${refinedstorage_fileid}")
     compileOnly fg.deobf("curse.maven:refined-storage-addons-272302:4626171")
     compileOnly fg.deobf("curse.maven:beyond-dimensions-1222890:${beyond_dimensions_fileid}")
+    compileOnly fg.deobf("curse.maven:projecte-226410:4901949")
     // implementation fg.deobf(group: 'localmods', name: 'beyonddimensions-1.20.1-forge-0.6.16', version: '0.6.16', ext: 'jar')
 }
 
