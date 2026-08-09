@@ -10,6 +10,7 @@ import dev.polaris_light.constructionwand.containers.handlers.HandlerDimensionsN
 import dev.polaris_light.constructionwand.containers.handlers.HandlerLightland;
 import dev.polaris_light.constructionwand.containers.handlers.HandlerNetTerminal;
 import dev.polaris_light.constructionwand.containers.handlers.HandlerOccultism;
+import dev.polaris_light.constructionwand.containers.handlers.HandlerProjectE;
 import dev.polaris_light.constructionwand.containers.handlers.HandlerPortableCell;
 import dev.polaris_light.constructionwand.containers.handlers.HandlerShulkerbox;
 import dev.polaris_light.constructionwand.containers.handlers.HandlerWirelessGrid;
@@ -59,6 +60,11 @@ public class ContainerRegistrar
         if(ModList.get().isLoaded("occultism")) {
             ConstructionWand.containerManager.register(new HandlerOccultism());
             ConstructionWand.LOGGER.info("Occultism integration added");
+        }
+
+        if(ModList.get().isLoaded("projecte")) {
+            ConstructionWand.containerManager.register(new HandlerProjectE());
+            ConstructionWand.LOGGER.info("ProjectE integration added");
         }
 
         ConstructionWand.containerManager.register(new HandlerShulkerbox());

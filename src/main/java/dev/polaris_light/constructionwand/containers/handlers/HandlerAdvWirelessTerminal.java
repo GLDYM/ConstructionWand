@@ -23,7 +23,7 @@ public class HandlerAdvWirelessTerminal implements IContainerHandler {
 
     @Override
     public boolean matches(Player player, ItemStack itemStack, ItemStack inventoryStack) {
-        return inventoryStack.getItem() instanceof AdvWirelessTerminalItem;
+        return inventoryStack != null && inventoryStack.getItem() instanceof AdvWirelessTerminalItem;
     }
 
     @Override

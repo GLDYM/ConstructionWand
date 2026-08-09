@@ -13,7 +13,7 @@ import dev.polaris_light.constructionwand.containers.ContainerTrace;
 public class HandlerOccultism implements IContainerHandler {
     @Override
     public boolean matches(Player player, ItemStack itemStack, ItemStack inventoryStack) {
-        return inventoryStack.getItem() instanceof StorageRemoteItem;
+        return inventoryStack != null && inventoryStack.getItem() instanceof StorageRemoteItem;
     }
 
     @Override

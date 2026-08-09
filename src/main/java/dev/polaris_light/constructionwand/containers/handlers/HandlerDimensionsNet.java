@@ -16,6 +16,7 @@ public class HandlerDimensionsNet implements IContainerHandler {
 
     @Override
     public boolean matches(Player player, ItemStack itemStack, ItemStack inventoryStack) {
+        if (inventoryStack == null) return false;
         if (!(inventoryStack.getItem() instanceof ItemWand)) return false;
         DimensionsNet net = DimensionsNet.getNetFromPlayer(player);
         return net != null;

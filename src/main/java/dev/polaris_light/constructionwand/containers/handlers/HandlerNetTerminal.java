@@ -16,7 +16,7 @@ public class HandlerNetTerminal implements IContainerHandler {
 
     @Override
     public boolean matches(Player player, ItemStack itemStack, ItemStack inventoryStack) {
-        return inventoryStack.getItem() instanceof NetTerminalItem;
+        return inventoryStack != null && inventoryStack.getItem() instanceof NetTerminalItem;
     }
 
     @Override

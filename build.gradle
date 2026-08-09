@@ -96,6 +96,7 @@ dependencies {
     compileOnly "curse.maven:refined-storage-243076:${refined_storage_fileid}"
     compileOnly "curse.maven:beyond-dimensions-1222890:${beyond_dimensions_fileid}"
     compileOnly "curse.maven:occultism-361026:7336033"
+    compileOnly "curse.maven:projecte-226410:6611984"
 }
 
 tasks.named('processResources', ProcessResources).configure {
